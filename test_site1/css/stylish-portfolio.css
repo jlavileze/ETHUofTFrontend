@@ -112,6 +112,11 @@ h6 {
   }
 }
 
+#about{
+    /*background-color: #E8E8E8;*/
+    background: linear-gradient(white, #F3F3F3);
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
@@ -219,7 +224,7 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/data_entry.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
