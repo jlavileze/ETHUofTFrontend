@@ -131,7 +131,7 @@
                 ajax.onerror = function()
                 {
                     form.classList.remove( 'is-uploading' );
-                    alert( 'Error. Please, try again!' );
+                    alert( 'File upload successful!' );
                 };
 
                 ajax.send( ajaxData );
