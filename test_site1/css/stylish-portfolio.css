@@ -597,3 +597,7 @@ a:hover, a:focus, a:active {
 {
   background-color: #0f3c4b;
 }
+
+#file_upload{
+  margin: 2em auto ;
+}
