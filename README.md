@@ -1,2 +1,0 @@
-# ETHUofTFrontend
-Frontend for eth
