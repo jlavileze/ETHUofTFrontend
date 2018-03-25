@@ -611,10 +611,18 @@ a:hover, a:focus, a:active {
 #test_comms button{
 
   margin: 0 auto;
-  display: block;
+  visibility: hidden;
 }
 
 .content-section {
 
   margin: 0 auto;
+}
+
+#unstruct {
+  margin-top: 2em;
+}
+
+.jumbo {
+  font-size: 6em;
 }
