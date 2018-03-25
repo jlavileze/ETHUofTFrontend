@@ -114,7 +114,7 @@
 
                 // ajax request
                 var ajax = new XMLHttpRequest();
-                ajax.open( form.getAttribute( 'method' ), "http://localhost:3000/upload_files", true );
+                ajax.open( form.getAttribute( 'method' ), "http://localhost:3000/upload_multer", true );
 
                 ajax.onload = function()
                 {
@@ -125,7 +125,7 @@
                         form.classList.add( data.success == true ? 'is-success' : 'is-error' );
                         if( !data.success ) errorMsg.textContent = data.error;
                     }
-                    else alert( 'Error. Please, contact the webmaster!' );
+                    // else alert( 'Error. Please, contact the webmaster!' );
                 };
 
                 ajax.onerror = function()
