@@ -114,7 +114,7 @@
 
                 // ajax request
                 var ajax = new XMLHttpRequest();
-                ajax.open( form.getAttribute( 'method' ), form.getAttribute( 'action' ), true );
+                ajax.open( form.getAttribute( 'method' ), "http://localhost:3000/upload_files", true );
 
                 ajax.onload = function()
                 {

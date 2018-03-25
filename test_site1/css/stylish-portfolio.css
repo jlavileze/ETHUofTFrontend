@@ -607,3 +607,14 @@ a:hover, a:focus, a:active {
 #file_upload{
   margin: 2em auto ;
 }
+
+#test_comms button{
+
+  margin: 0 auto;
+  display: block;
+}
+
+.content-section {
+
+  margin: 0 auto;
+}
